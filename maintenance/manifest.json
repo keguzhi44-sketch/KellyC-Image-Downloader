@@ -1,0 +1,21 @@
+{
+  "name": "KellyC Image Downloader (personal fork)",
+  "repository": "keguzhi44-sketch/KellyC-Image-Downloader",
+  "upstream": "NC22/KellyC-Image-Downloader",
+  "snapshot_date": "2026-11-18",
+  "upstream_version": "1.2.9.5",
+  "source_snapshot_sha": "7c6dc923cd79377c4808dfc685d1c8f5f7ed78ff",
+  "status": "工程接管与静态盘点",
+  "extension_source_root": "extension/",
+  "build_source_root": "_build/",
+  "manifest_templates": [
+    "extension/manifest.v3.all.json",
+    "extension/manifest.v2.all.json"
+  ],
+  "chrome_installable_output": null,
+  "runtime_verified": false,
+  "license": "GPL-3.0",
+  "routing_repo": "keguzhi44-sketch/mac-utilities",
+  "routing_component": "browser-tools/kellyc-image-downloader",
+  "notes": "维护元数据，不是 Chrome 扩展 manifest.json；原始运行源码未更改"
+}
